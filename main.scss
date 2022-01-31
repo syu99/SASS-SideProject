@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Baumans&family=Megrim&display=swap");
+
+$white: #f3f0f0;
+$blue: #84c1ff;
+$red: #ff1808;
+$orange: #fa9e1e;
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  font-family: "Baumans", cursive;
+  color: $white;
+  background: url("./media/background.jpg");
+  background-size: cover;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}

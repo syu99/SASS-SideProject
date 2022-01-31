@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Baumans&family=Megrim&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  font-family: "Baumans", cursive;
+  color: #f3f0f0;
+  background: url("./media/background.jpg");
+  background-size: cover; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+/*# sourceMappingURL=style.css.map */
