@@ -4,6 +4,7 @@ $white: #f3f0f0;
 $blue: #84c1ff;
 $red: #ff1808;
 $orange: #fa9e1e;
+$pink: #ff0dff;
 
 body {
   margin: 0;
@@ -13,7 +14,7 @@ body {
   position: relative;
   font-family: "Baumans", cursive;
   color: $white;
-  background: url("./media/background.jpg");
+  background: url("./media/bkg.jpg");
   background-size: cover;
 }
 li {
@@ -21,4 +22,21 @@ li {
 }
 a {
   text-decoration: none;
+  &:visited {
+    color: $white;
+  }
+}
+//***********************HEADER*********************//
+.title {
+  padding: 5px 0 0 10px;
+}
+h1 {
+  font-family: "Megrim", cursive;
+  font-size: 45px;
+  font-weight: 100;
+  text-transform: uppercase;
+  margin: 0;
+  padding-left: 10px;
+  color: $pink;
+  text-shadow: 2px 2px 0px $blue, 4px 4px 0px $red, 4px 4px 6px $pink;
 }

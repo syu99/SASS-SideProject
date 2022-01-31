@@ -7,7 +7,7 @@ body {
   position: relative;
   font-family: "Baumans", cursive;
   color: #f3f0f0;
-  background: url("./media/background.jpg");
+  background: url("./media/bkg.jpg");
   background-size: cover; }
 
 li {
@@ -15,5 +15,20 @@ li {
 
 a {
   text-decoration: none; }
+  a:visited {
+    color: #f3f0f0; }
+
+.title {
+  padding: 5px 0 0 10px; }
+
+h1 {
+  font-family: "Megrim", cursive;
+  font-size: 45px;
+  font-weight: 100;
+  text-transform: uppercase;
+  margin: 0;
+  padding-left: 10px;
+  color: #ff0dff;
+  text-shadow: 2px 2px 0px #84c1ff, 4px 4px 0px #ff1808, 4px 4px 6px #ff0dff; }
 
 /*# sourceMappingURL=style.css.map */
