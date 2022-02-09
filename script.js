@@ -1,0 +1,1 @@
+const card = $(".perspective__3d");
